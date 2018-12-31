@@ -100,14 +100,19 @@ li a:hover:not(.active) {
                 <a class="nav-link" href="/webapp/home.php">Home <span class="sr-only">(current)</span></a>
               </li>-->
 
-            sdasdasdasdasda
-              <li class="nav-item">
-              <a class="nav-link" href="/webapp/repairindex.php">Repair</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+           <!--  <a class="dropdown-item" href="/webapp/repair.php">Repair</a>-->
+                  <a class="dropdown-item" href="/webapp/repairindex.php">Repair</a>
+                  <a class="dropdown-item" href="/webapp/hardwareindex.php">Hardwares</a>
+                  <a class="dropdown-item" href="/webapp/softwareindex.php">Softwares</a>
+                   <!--   <a class="dropdown-item" href="/">Support</a>-->
+                </div>
               </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="/webapp/hardwareindex.php">Hardwares</a>
-              </li>
+            
               
              <li class="nav-item">
               <a class="nav-link" href="/webapp/contactpage.php">Contact</a>
